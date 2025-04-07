@@ -3,36 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Sam's Portfolio</title>
   <link rel="stylesheet" href="src/styles/style.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to My Portfolio</h1>
+    <div class="logo">Sam</div>
     <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="blog.html">Blog</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>This is where you can introduce yourself.</p>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <p>Showcase your projects here.</p>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Provide your contact details here.</p>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Sam</span></h1>
+        <div class="social-buttons">
+          <a href="https://www.youtube.com/@Zshellie" class="btn youtube" target="_blank">
+            <img src="src/assets/youtube-icon.svg" alt="YouTube"> YouTube
+          </a>
+          <a href="https://www.linkedin.com/in/samzizzo/" class="btn linkedin" target="_blank">
+            <img src="src/assets/linkedin-icon.svg" alt="LinkedIn"> LinkedIn
+          </a>
+          <a href="https://github.com/szizzo522" class="btn github" target="_blank">
+            <img src="src/assets/github-icon.svg" alt="GitHub"> GitHub
+          </a>
+          <a href="#" class="btn resume">Download Resume</a>
+        </div>
+      </div>
     </section>
   </main>
   <footer>
-    <p>&copy; 2025 My Portfolio</p>
+    <p>&copy; 2025 Sam's Portfolio</p>
+    <p>Copyright © 2025 - Samuel Portfolio - All Rights Reserved - Best Experienced on Microsoft Edge, Other Browsers May Contain Bugs</p>
   </footer>
   <script src="src/scripts/app.js"></script>
 </body>
